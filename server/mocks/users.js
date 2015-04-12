@@ -4,13 +4,13 @@ module.exports = function(app) {
 
   usersRouter.get('/:id', function(req, res) {
   var users = {
-    'andreisoare': {
-      id: 'andreisoare',
-      name: 'Andrei Soare'
+    'kareemrady': {
+      id: 'kareemrady',
+      name: 'Kareem Rady'
     },
-    'vladberteanu': {
-      id: 'vladberteanu',
-      name: 'Vlad Berteanu'
+    'johndoe': {
+      id: 'johndoe',
+      name: 'John Doe'
     }
   };
 

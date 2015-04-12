@@ -7,13 +7,23 @@ module.exports = function(app) {
       "posts": [
         {
           id: "p1",
-          created_By: "andreisoare",
+          created_by: "kareemrady",
+          title: "Ember JS",
           body: "post 1 body"
         },
         {
           id: "p2",
-          created_By: "vladberteanu",
+          created_by: "johndoe",
+          title: "Node JS",
           body: "post 2 body"
+        },
+
+          {
+            id: "p3",
+            created_by: "kareemrady",
+            title: "Javascript",
+            body: "post 3 body"
+
         }
       ]
     });
