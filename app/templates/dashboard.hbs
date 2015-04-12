@@ -1,12 +1,10 @@
 <ul>
-  {{#each}}
+  {{#each post in model}}
   <li>
     <ul>
-      <li>
-      {{title}}
-    </li>
+     {{post.title}}
     <li>
-      {{createdBy.name}}: {{body}}
+      {{post.createdBy.name}} : {{post.body}}
     </li>
     <
     </ul>
