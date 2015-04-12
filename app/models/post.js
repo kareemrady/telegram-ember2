@@ -1,9 +1,9 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  title: DS.attr('string'),
+    title: DS.attr('string'),
     body: DS.attr('string'),
-    createdBy: DS.belongsTo('user', {async: true}),
+    author: DS.belongsTo('user', {async: true}),
     createdOn: DS.attr('date')
 
 

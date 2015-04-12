@@ -7,20 +7,20 @@ module.exports = function(app) {
       "posts": [
         {
           id: "p1",
-          created_by: "kareemrady",
+          author: "kareemrady",
           title: "Ember JS",
           body: "post 1 body"
         },
         {
           id: "p2",
-          created_by: "johndoe",
+          author: "johndoe",
           title: "Node JS",
           body: "post 2 body"
         },
 
           {
             id: "p3",
-            created_by: "kareemrady",
+            author: "kareemrady",
             title: "Javascript",
             body: "post 3 body"
 
