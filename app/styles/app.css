@@ -60,11 +60,36 @@
 .form-section{
   padding-top: 50px;
 }
+.reset-password {
+  margin-left: 50px;
+  font-size: 13px;
+  color: #000000;
+
+}
 
 form {
   margin-left: 50px;
 }
+.namefield {
 
+  width: 320px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 13px;
+  color: #000000;
+
+}
+.emailfield {
+
+  width: 320px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 13px;
+  color: #000000;
+
+}
 .usernamefield {
   /*
   float: left;
@@ -112,9 +137,31 @@ form {
   display: inline-block;
 
 }
-.signup-button p {
+.links-signup {
+  width: 200px;
+  height: 30px;
   display: inline-block;
+  margin-left: 10px;
   padding-left: 200px;
+  margin-left: 10px;
+
+}
+.links-signup a {
+  font-size: 13px;
+  color: #0084B2;
+  text-decoration: none;
+}
+.reset-button{
+  margin-top: 25px;
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #0084B2;
+  color: #0084B2;
+  font-size: 13px;
+  font-style: bold;
+  display: inline-block;
+
 }
 .links{
 
