@@ -1,0 +1,144 @@
+.mast-login {
+  background-color: white;
+  padding: 30px;
+  width: 865px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+
+
+.clearboth {
+  clear: both;
+}
+
+
+.telegram-logo {
+  float: left;
+  width: 50%;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #EEEEEE;
+  padding-bottom: 60px;
+
+
+  text-align: center;
+
+}
+
+
+.telegram-logo img {
+  margin-top: 100px;
+}
+
+
+.header {
+
+  font-size: 22px;
+  color: #000000;
+  padding:50px;
+  width: 300px;
+  height: 100px;
+}
+
+.login-section {
+
+  width: 50%;
+  float: right;
+  position: relative;
+}
+
+.postmark-logo {
+ position: absolute;
+ top: 0px;
+ right: 0px;
+
+
+}
+
+.form-section{
+  padding-top: 50px;
+}
+
+form {
+  margin-left: 50px;
+}
+
+.usernamefield {
+  /*
+  float: left;
+  position: absolute;
+  top: 290px;
+  right: 450px; */
+  width: 320px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 13px;
+  color: #000000;
+
+}
+.passwordfield {
+  width: 320px;
+  height: 30px;
+  border: 0;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 13px;
+  color: #000000;
+
+}
+.login-button{
+  margin-top: 25px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #0084B2;
+  color: #0084B2;
+  font-size: 13px;
+  font-style: bold;
+  display: inline-block;
+
+}
+.signup-button{
+  margin-top: 25px;
+  width: 70px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #0084B2;
+  color: #0084B2;
+  font-size: 13px;
+  font-style: bold;
+  display: inline-block;
+
+}
+.signup-button p {
+  display: inline-block;
+  padding-left: 200px;
+}
+.links{
+
+  width: 200px;
+  height: 30px;
+  font-size: 13px;
+  display: inline-block;
+  margin-left: 10px;
+}
+.links a {
+
+  font-size: 13px;
+  color: #0084B2;
+  text-decoration: none;
+}
+
+
+body {
+  background-color: #008CB8;
+  font-family: 'open-sans';
+
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
