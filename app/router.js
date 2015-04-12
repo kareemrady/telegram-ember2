@@ -16,9 +16,8 @@ export default Router.map(function() {
       this.route('signup');
       this.route('reset');
       this.route('reset-success');
-      this.route('dashboard');
-
   });
+  this.route('dashboard', {path: '/dashboard'});
   this.resource('users', {path: '/:user_id'}, function(){
     this.route('followers');
     this.route('following');
