@@ -1,0 +1,11 @@
+<div class="form-section">
+  <section class="header">Get going ...</section>
+  <form {{action "createUser" on="submit"}}>
+    {{input class="usernamefield" type="text" value=userName placeholder="Enter your username ..."}}
+    {{input class="passwordfield" type="password" value=password placeholder="Enter your password ..."}}
+    {{input class="login-button" type="submit" value="Log in" }}
+    <div class="links">
+      <p>{{#link-to 'auth.reset'}}RecoverPassword{{/link-to}} or {{#link-to 'auth.signup'}}Sign up{{/link-to}}</p>
+    </div>
+  </form>
+</div>

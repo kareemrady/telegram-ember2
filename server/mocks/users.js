@@ -1,8 +1,6 @@
 module.exports = function(app) {
   var express = require('express');
   var usersRouter = express.Router();
-
-  usersRouter.get('/:id', function(req, res) {
   var users = {
     'kareemrady': {
       id: 'kareemrady',
@@ -13,14 +11,28 @@ module.exports = function(app) {
       name: 'John Doe'
     }
   };
+  usersRouter.get('/:id', function(req, res) {
 
-  res.send({
-    "user": users[req.params.id]
+    res.send({
+      "user": users[req.params.id]
+    });
   });
-});
+  usersRouter.get('/', function(req, res) {
+
+    res.send({
+      "users": Object.keys(users).map(function(key) { return users[key]; })
+    });
+  });
+  usersRouter.post('/', function(req, res){
+    var user = req.body.user;
+    res.send({
+      "user": {
+        id: user.id,
+        name: 'testuser'
+      }
+    });
+  });
 
 
-
-
-app.use('/api/users', usersRouter);
+  app.use('/api/users', usersRouter);
 };

@@ -4,11 +4,13 @@
     <ul>
      {{post.title}}
     <li>
-      {{post.author.name}} : {{post.body}}
+      {{post.createdBy.name}} : {{post.body}}
     </li>
     <
     </ul>
   </li>
   {{/each}}
 
+
 </ul>
+<p>{{session.user.name}}</p>

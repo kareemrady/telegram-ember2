@@ -3,7 +3,7 @@ import DS from 'ember-data';
 export default DS.Model.extend({
     title: DS.attr('string'),
     body: DS.attr('string'),
-    author: DS.belongsTo('user', {async: true}),
+    createdBy: DS.belongsTo('user', {async: true}),
     createdOn: DS.attr('date')
 
 

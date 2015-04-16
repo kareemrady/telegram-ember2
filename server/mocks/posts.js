@@ -7,20 +7,20 @@ module.exports = function(app) {
       "posts": [
         {
           id: "p1",
-          author: "kareemrady",
+          createdBy: "kareemrady",
           title: "Ember JS",
           body: "post 1 body"
         },
         {
           id: "p2",
-          author: "johndoe",
+          createdBy: "johndoe",
           title: "Node JS",
           body: "post 2 body"
         },
 
           {
             id: "p3",
-            author: "kareemrady",
+            createdBy: "kareemrady",
             title: "Javascript",
             body: "post 3 body"
 
@@ -28,7 +28,6 @@ module.exports = function(app) {
       ]
     });
   });
-
 
   app.use('/api/posts', postsRouter);
 };
